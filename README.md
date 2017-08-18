@@ -1,4 +1,4 @@
-#Bootsassy 4
+# Bootsassy 4
 Bootstrap 4 and SCSS taskrunner and compiler. One of my personal Bootstrap-sass starter workflow.
 
 - node-sass & autoprefixer 
