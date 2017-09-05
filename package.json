@@ -4,7 +4,7 @@
   "description": "Bootstrap.scss and scss complier workflow",
   "repository": {
     "type": "git",
-    "url": "git+aprather51+https://github.com/aprather51/https://github.com/aprather51/"
+    "url": "git+aprather51+https://github.com/aprather51/Bootsassy4"
   },
   "scripts": {
     "start": "parallelshell \"npm run scss\" \"npm run serve\" ",
