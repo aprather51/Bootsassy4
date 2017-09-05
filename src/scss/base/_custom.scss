@@ -1,7 +1,45 @@
+// Prerequesties
+$orangered: #FF4500;
+
+$fontSecondary: $orangered;
+//=============================
 body {
     padding-top: 5rem;
   }
   .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
+    h1{
+      color:$fontSecondary;
+    }
+  }
+
+//navbutton
+  .btn-outline-orange {
+    color: $fontSecondary;
+    background-image: none;
+    background-color: transparent;
+    border-color: $fontSecondary;
+    &:hover{
+      background-color: $orangered;
+      color: $white;
+    }
+  }
+
+  //button
+  .btn-solid-orange {
+    color: $fontSecondary;
+    background-image: none;
+    background-color: transparent;
+    border-color: $fontSecondary;
+    &:hover{
+      background-color: $orangered;
+      color: $white;
+    }
+  }
+
+  .three-lead{ color: $fontSecondary; }
+  
+  .navbar-brand, {
+    color: $fontSecondary !important;
   }

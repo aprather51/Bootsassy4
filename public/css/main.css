@@ -4,6 +4,45 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/****** Common Container Sizes ******/
+/****** Breakpoints ******/
+/******  Common Color  ******/
+/****** Common Grayness ******/
+/****** Fonts ******/
+/****** Background Color w/Alpha ******/
+body {
+  padding-top: 5rem; }
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center; }
+  .starter-template h1 {
+    color: #FF4500; }
+
+.btn-outline-orange {
+  color: #FF4500;
+  background-image: none;
+  background-color: transparent;
+  border-color: #FF4500; }
+  .btn-outline-orange:hover {
+    background-color: #FF4500;
+    color: #fff; }
+
+.btn-solid-orange {
+  color: #FF4500;
+  background-image: none;
+  background-color: transparent;
+  border-color: #FF4500; }
+  .btn-solid-orange:hover {
+    background-color: #FF4500;
+    color: #fff; }
+
+.three-lead {
+  color: #FF4500; }
+
+.navbar-brand {
+  color: #FF4500 !important; }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -5912,10 +5951,10 @@ a.text-danger:focus, a.text-danger:hover {
   color: #c9302c !important; }
 
 .text-gray-dark {
-  color: #292b2c !important; }
+  color: #222222 !important; }
 
 a.text-gray-dark:focus, a.text-gray-dark:hover {
-  color: #101112 !important; }
+  color: #080808 !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -5993,3 +6032,29 @@ body {
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center; }
+  .starter-template h1 {
+    color: #FF4500; }
+
+.btn-outline-orange {
+  color: #FF4500;
+  background-image: none;
+  background-color: transparent;
+  border-color: #FF4500; }
+  .btn-outline-orange:hover {
+    background-color: #FF4500;
+    color: #fff; }
+
+.btn-solid-orange {
+  color: #FF4500;
+  background-image: none;
+  background-color: transparent;
+  border-color: #FF4500; }
+  .btn-solid-orange:hover {
+    background-color: #FF4500;
+    color: #fff; }
+
+.three-lead {
+  color: #FF4500; }
+
+.navbar-brand {
+  color: #FF4500 !important; }
